@@ -19,8 +19,6 @@ namespace _2017._01.Controllers
 
         public IActionResult Index()
         {
-            _productAppService.Save();
-
             return View();
         }
 
